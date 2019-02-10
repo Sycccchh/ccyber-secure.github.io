@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="ua">
+	<head>
+
+		<meta charset="utf-8" />
+		<title>Article5</title>
+		<link rel="stylesheet" href="../css/style.css" />
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script>
+
+			$(document).scroll (function () {
+				if ($(document).scrollTop () > $('header').height () + 10)
+					$('nav').addClass ('fixed');
+				else 
+					$('nav').removeClass ('fixed');
+			});
+
+		</script>
+
+	</head>
+
+	<body class="body">
+		<div id="page-wrap">
+		<header>
+			<a href="../main.html" title="На головну" id="logo">Cyber-Secure.net</a><input type="text" class="field" placeholder="Пошук"/>
+		</header>
+		<nav class="dws-menu">
+			<ul>
+				<li><a href="../main.html">Головна</a></li>
+				<li><a href="#">Вірусологія</a>
+					<ul>
+						<li><a href="#">Що таке віруси?</a></li>
+						<li><a href="#">Види загроз</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="#">Кібербезпека</a>
+					<ul>
+						<li><a href="#">Антивіруси</a></li>
+						<li><a href="#">Способи захисту</a></li>
+						<li><a href="#">Навчальний відеокурс</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Корисні програми</a></li>
+				<li><a href="#">Контакти</a></li>
+			</ul>
+		</nav>
+		</div>
+		<footer>
+			<span class="left">Всі права захищені &copy; 2019</span>
+		</footer>
+		<div class="content">
+
+		</div>
+	</body>
+</html>
