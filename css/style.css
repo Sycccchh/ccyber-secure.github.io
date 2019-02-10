@@ -23,30 +23,7 @@ html {
 	margin-left: 18%;
 	margin-right: 18%;
 	vertical-align: middle;
-}
-
-a {
-	color: white;
-	text-decoration: none;
-	transition: all.6s ease;
-	-moz-transition: all.6s ease;
-	-webkit-transition: all.6s ease;
-	-ms-transition: all.6s ease;
-	-o-transition: all.6s ease;
-}
-
-a:hover {
-	color: black;
-	text-decoration: none;
-	transition: all.6s ease;
-	-moz-transition: all.6s ease;
-	-webkit-transition: all.6s ease;
-	-ms-transition: all.6s ease;
-	-o-transition: all.6s ease;
-}
-
-a:active {
-	color: gold;
+	min-height: 100%;
 }
 
 /* Меню сайта */
@@ -145,15 +122,32 @@ footer {
 	border-top: 2px solid gray;
 	margin-top: 10px;
 	padding: 1%;
+	min-height: 15px;
+}
+
+footer #copy {
+	margin-top: 0;
 }
 
 #logo {
 	font-family: Arial Black, sans-serif;
 	font-size: 2em;
+	color: white;
+	text-decoration: none;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
 }
 
 #logo:hover {
 	color: #D8D8D8;
+	transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
 }
 
 input[type=text].field {
@@ -167,26 +161,6 @@ input[type=text].field {
 input[type=text].field:focus {
 	border: 2px solid white;
 }
-
-.left {
- 	float: left;
- 	margin-left: 1%;
-}
-
-#page-wrap:after {
-	content: "";
-	display: block;
-}
-
-footer, #page-wrap:after {
-	height: 10px;
-}
-
-#page-wrap {
-	min-height: 100%;
-	margin-bottom: -10px;
-}
-
 
 /* Content */
 
@@ -259,7 +233,7 @@ footer, #page-wrap:after {
 		width: 100%;
 		border-radius: 5px 5px 0 0;
 		border-bottom: 1px solid white;
-		height: 200px;
+		height: 250px;
 	}
 
 	#wrapper #articles article h2 {
@@ -311,11 +285,6 @@ footer, #page-wrap:after {
 		margin-left: 3%;
 		color: black;
 	}
-
-	#page-wrap {
-		min-height: 115%;
-		margin-bottom: -10px;
-	}
 }
 
 @media (min-width: 1300px) and (max-width: 1499px) {
@@ -354,10 +323,6 @@ footer, #page-wrap:after {
 		color: black;
 	}
 
-	#page-wrap {
-		min-height: 115%;
-		margin-bottom: -10px;
-	}
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
