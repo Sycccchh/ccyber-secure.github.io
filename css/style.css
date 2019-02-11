@@ -31,6 +31,13 @@ html {
 	min-height: 100%;
 }
 
+.content2 {
+	margin-left: 18%;
+	margin-right: 18%;
+	vertical-align: middle;
+	min-height: 100%;
+}
+
 /* Меню сайта */
 
 nav {
@@ -255,6 +262,47 @@ input[type=text].field:focus {
 		margin-left: 3%;
 		color: black;
 	}
+
+	.contacts {
+		background-color: #fafafa;
+		width: 60%;
+		padding: 1%;
+		margin-right: 5%;
+		float: left;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+
+	}
+
+	.contacts h2 {
+		margin-bottom: 30px;
+	}
+
+	.contacts2 {
+		background-color: #fafafa;
+		width: 30%;
+		margin-right: 5%;
+		float: right;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+	}
+
+	#prog {
+		border-radius: 5px 5px 0 0;
+		width: 100%;
+	}
+
+	.contacts2 h3 {
+		margin-top: 10px;
+	}
+
+	.contacts #red {
+		color: red;
+	}
 }
 
 @media (min-width: 1500px) and (max-width: 1599px) {
@@ -290,6 +338,47 @@ input[type=text].field:focus {
 		width: 94%;
 		margin-left: 3%;
 		color: black;
+	}
+
+	.contacts {
+		background-color: #fafafa;
+		width: 60%;
+		padding: 1%;
+		margin-right: 5%;
+		float: left;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+
+	}
+
+	.contacts h2 {
+		margin-bottom: 30px;
+	}
+
+	.contacts2 {
+		background-color: #fafafa;
+		width: 30%;
+		margin-right: 5%;
+		float: right;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+	}
+
+	#prog {
+		border-radius: 5px 5px 0 0;
+		width: 100%;
+	}
+
+	.contacts2 h3 {
+		margin-top: 10px;
+	}
+
+	.contacts #red {
+		color: red;
 	}
 }
 
@@ -329,27 +418,72 @@ input[type=text].field:focus {
 		color: black;
 	}
 
+	.contacts {
+		background-color: #fafafa;
+		width: 60%;
+		padding: 1%;
+		margin-right: 5%;
+		float: left;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+
+	}
+
+	.contacts h2 {
+		margin-bottom: 30px;
+	}
+
+	.contacts2 {
+		background-color: #fafafa;
+		width: 30%;
+		margin-right: 5%;
+		float: right;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+	}
+
+	#prog {
+		border-radius: 5px 5px 0 0;
+		width: 100%;
+	}
+
+	.contacts2 h3 {
+		margin-top: 10px;
+	}
+
+	.contacts #red {
+		color: red;
+	}
 }
 
 @media (min-width: 900px) and (max-width: 1099px) {
 	#wrapper #articles article {
-		width: 48%;
-		margin-right: 2%;
+		width: 80%;
+		margin-right: 10%;
+		float: right;
 		min-height: 200px;
 		margin-bottom: 25px;
 		-webkit-transition: all 0.5s ease; 
 		-moz-transition: all 0.5s ease; 
 		-o-transition: all 0.5s ease; 
 		transition: all 0.5s ease;
-		font-size: 1em;
+		font-size: 1.3em;
 		line-height: 25px;
+	}
+
+	.content2 {
+		min-height: 200%;
 	}
 
 	#wrapper #articles article img {
 		width: 100%;
 		border-radius: 5px 5px 0 0;
 		border-bottom: 1px solid white;
-		height: 225px;
+		height: 300px;
 	}
 
 	#wrapper #articles article h2 {
@@ -382,29 +516,49 @@ input[type=text].field:focus {
 		float: right;
 	}
 
-	.contacts2 {
-		background-color: #fafafa;
-		width: 36%;
-		margin-right: 2%;
-		float: right;
-		border-radius: 5px;
-		box-sizing: border-box;
-		min-height: 500px;
-		text-align: center;
-	}
-
 	.contacts {
 		background-color: #fafafa;
-		width: 60%;
-		padding: 1%;
-		margin-right: 2%;
+		width: 98%;
+		padding: 3%;
+		margin-left: 1%;
 		float: left;
 		border-radius: 5px;
 		box-sizing: border-box;
 		min-height: 500px;
 		text-align: center;
+		font-size: 20px;
+
 	}
 
+	.contacts h2 {
+		margin-bottom: 30px;
+	}
+
+	.contacts2 {
+		background-color: #fafafa;
+		width: 80%;
+		margin-right: 10%;
+		margin-top: 5%;
+		float: right;
+		border-radius: 5px;
+		box-sizing: border-box;
+		min-height: 500px;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	#prog {
+		border-radius: 5px 5px 0 0;
+		width: 100%;
+	}
+
+	.contacts2 h3 {
+		margin-top: 10px;
+	}
+
+	.contacts #red {
+		color: red;
+	}
 }
 
 #wrapper #articles article:hover {
@@ -417,47 +571,4 @@ input[type=text].field:focus {
 	-moz-transition: all 0.5s ease; 
 	-o-transition: all 0.5s ease; 
 	transition: all 0.5s ease; 
-}
-
-/* Page contacts */
-
-.contacts {
-	background-color: #fafafa;
-	width: 60%;
-	padding: 1%;
-	margin-right: 5%;
-	float: left;
-	border-radius: 5px;
-	box-sizing: border-box;
-	min-height: 500px;
-	text-align: center;
-
-}
-
-.contacts h2 {
-	margin-bottom: 30px;
-}
-
-.contacts2 {
-	background-color: #fafafa;
-	width: 30%;
-	margin-right: 5%;
-	float: right;
-	border-radius: 5px;
-	box-sizing: border-box;
-	min-height: 500px;
-	text-align: center;
-}
-
-#prog {
-	border-radius: 5px 5px 0 0;
-	width: 100%;
-}
-
-.contacts2 h3 {
-	margin-top: 10px;
-}
-
-.contacts #red {
-	color: red;
 }
