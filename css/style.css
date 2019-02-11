@@ -7,13 +7,18 @@ html {
 	height: 100%;
 }
 
+/*
+#article3 {
+	display: none;   Скрытие статьи
+}
+*/
+
 .body {
 	margin: 0px;
 	padding: 0px;
 	background-color: silver;
 	height: 100%;
 	width: 100%;
-	color: white;
 	font-size: 1em;
 	font-family: "Segoe UI", sans-serif;
 	line-height: 135%;
@@ -127,6 +132,7 @@ footer {
 
 footer #copy {
 	margin-top: 0;
+	color: white;
 }
 
 #logo {
@@ -388,4 +394,47 @@ input[type=text].field:focus {
 	-moz-transition: all 0.5s ease; 
 	-o-transition: all 0.5s ease; 
 	transition: all 0.5s ease; 
+}
+
+/* Page contacts */
+
+.contacts {
+	background-color: #fafafa;
+	width: 60%;
+	padding: 1%;
+	margin-right: 5%;
+	float: left;
+	border-radius: 5px;
+	box-sizing: border-box;
+	min-height: 500px;
+	text-align: center;
+
+}
+
+.contacts h2 {
+	margin-bottom: 30px;
+}
+
+.contacts2 {
+	background-color: #fafafa;
+	width: 30%;
+	margin-right: 5%;
+	float: right;
+	border-radius: 5px;
+	box-sizing: border-box;
+	min-height: 500px;
+	text-align: center;
+}
+
+#prog {
+	border-radius: 5px 5px 0 0;
+	width: 100%;
+}
+
+.contacts2 h3 {
+	margin-top: 10px;
+}
+
+.contacts #red {
+	color: red;
 }
