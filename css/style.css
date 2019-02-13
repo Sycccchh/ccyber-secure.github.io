@@ -31,13 +31,6 @@ html {
 	min-height: 100%;
 }
 
-.content2 {
-	margin-left: 18%;
-	margin-right: 18%;
-	vertical-align: middle;
-	min-height: 100%;
-}
-
 /* Меню сайта */
 
 nav {
@@ -134,7 +127,7 @@ footer {
 	border-top: 2px solid gray;
 	margin-top: 10px;
 	padding: 1%;
-	min-height: 15px;
+	height: auto;
 }
 
 footer #copy {
@@ -232,6 +225,129 @@ input[type=text].field:focus {
 
 /* 1920x1080 */
 @media (min-width: 1920px){
+	.antiviruses {
+		width: 50%;
+		margin-right: 25%;
+		border-radius: 5px;
+		float: right;
+		height: auto;
+		font-size: 1.5em;
+		line-height: 10px;
+		margin-bottom: 35px;
+	}
+
+	.content2 {
+		margin-left: 12%;
+		margin-right: 12%;
+		vertical-align: middle;
+		min-height: 100%;
+		flex: 1 0 auto;
+	}
+
+	.antiviruses h3 {
+		text-align: center;
+	}
+
+	.antiviruses2 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses3 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses4 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		min-height: 600px;
+		line-height: 20px;
+	}
+
+	.antiviruses5 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses6 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses7 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses8 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses9 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses10 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses11 {
+		width: 50%;
+		margin-right: 25%;
+		border-radius: 5px;
+		float: right;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
 	#wrapper #articles article {
 		width: 31.3%;
 		margin-right: 2%;
@@ -304,10 +420,154 @@ input[type=text].field:focus {
 	.contacts #red {
 		color: red;
 	}
+
+	.content2 div #system {
+		margin-right: 10%;
+		float: right;
+		width: 80%;
+	}
+
+	.content2 div p {
+		font-size: 15px;
+	}
 }
 
 /* 1600x900 */
 @media (min-width: 1600px) and (max-width: 1919px) {
+	.antiviruses {
+		width: 60%;
+		margin-right: 20%;
+		border-radius: 5px;
+		float: right;
+		height: auto;
+		font-size: 1.5em;
+		line-height: 10px;
+		margin-bottom: 35px;
+	}
+
+	.content2 {
+		margin-left: 12%;
+		margin-right: 12%;
+		vertical-align: middle;
+		min-height: 100%;
+		flex: 1 0 auto;
+	}
+
+
+	.content2 div p {
+		font-size: 15px;
+	}
+
+	.content2 div #system {
+		margin-right: 10%;
+		float: right;
+		width: 80%;
+	}
+
+	.antiviruses h3 {
+		text-align: center;
+	}
+
+	.antiviruses2 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses3 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses4 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		min-height: 600px;
+		line-height: 20px;
+	}
+
+	.antiviruses5 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses6 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses7 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses8 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses9 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses10 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses11 {
+		width: 50%;
+		margin-right: 25%;
+		border-radius: 5px;
+		float: right;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
 	#wrapper #articles article {
 		width: 31.3%;
 		margin-right: 2%;
@@ -386,6 +646,139 @@ input[type=text].field:focus {
 
 /* 1440x900 */
 @media (min-width: 1440px) and (max-width: 1599px) {
+	.antiviruses {
+		width: 60%;
+		margin-right: 20%;
+		border-radius: 5px;
+		float: right;
+		height: auto;
+		font-size: 1.5em;
+		line-height: 10px;
+		margin-bottom: 35px;
+	}
+
+	.content2 {
+		margin-left: 10%;
+		margin-right: 10%;
+		vertical-align: middle;
+		min-height: 100%;
+		flex: 1 0 auto;
+	}
+
+	.content2 div p {
+		font-size: 15px;
+	}
+
+	.content2 div #system {
+		margin-right: 5%;
+		float: right;
+		width: 90%;
+	}
+
+	.antiviruses h3 {
+		text-align: center;
+	}
+
+	.antiviruses2 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses3 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses4 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		min-height: 600px;
+		line-height: 20px;
+	}
+
+	.antiviruses5 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses6 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses7 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses8 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses9 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses10 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses11 {
+		width: 50%;
+		margin-right: 25%;
+		border-radius: 5px;
+		float: right;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
 	#wrapper #articles article {
 		width: 31.3%;
 		margin-right: 2%;
@@ -472,6 +865,139 @@ input[type=text].field:focus {
 
 /* 1366x768 */
 @media (min-width: 1366px) and (max-width: 1439px) {
+	.antiviruses {
+		width: 60%;
+		margin-right: 20%;
+		border-radius: 5px;
+		float: right;
+		height: auto;
+		font-size: 1.5em;
+		line-height: 10px;
+		margin-bottom: 35px;
+	}
+
+	.content2 {
+		margin-left: 6%;
+		margin-right: 6%;
+		vertical-align: middle;
+		min-height: 100%;
+		flex: 1 0 auto;
+	}
+
+	.content2 div p {
+		font-size: 15px;
+	}
+
+	.content2 div #system {
+		margin-right: 5%;
+		float: right;
+		width: 90%;
+	}
+
+	.antiviruses h3 {
+		text-align: center;
+	}
+
+	.antiviruses2 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses3 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses4 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		min-height: 600px;
+		line-height: 20px;
+	}
+
+	.antiviruses5 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses6 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses7 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses8 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses9 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses10 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses11 {
+		width: 50%;
+		margin-right: 25%;
+		border-radius: 5px;
+		float: right;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
 	#wrapper #articles article {
 		width: 31.3%;
 		margin-right: 2%;
@@ -558,6 +1084,139 @@ input[type=text].field:focus {
 
 /* 1280x960 (1280x1024) */
 @media (min-width: 1280px) and (max-width: 1365px) {
+	.antiviruses {
+		width: 60%;
+		margin-right: 20%;
+		border-radius: 5px;
+		float: right;
+		height: auto;
+		font-size: 1.5em;
+		line-height: 10px;
+		margin-bottom: 35px;
+	}
+
+	.content2 {
+		margin-left: 5%;
+		margin-right: 5%;
+		vertical-align: middle;
+		min-height: 100%;
+		flex: 1 0 auto;
+	}
+
+	.content2 div p {
+		font-size: 14px;
+	}
+
+	.content2 div #system {
+		margin-right: 5%;
+		float: right;
+		width: 90%;
+	}
+
+	.antiviruses h3 {
+		text-align: center;
+	}
+
+	.antiviruses2 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses3 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses4 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		min-height: 600px;
+		line-height: 20px;
+	}
+
+	.antiviruses5 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses6 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses7 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses8 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses9 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses10 {
+		width: 31.3%;
+		margin-right: 2%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses11 {
+		width: 50%;
+		margin-right: 25%;
+		border-radius: 5px;
+		float: right;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
 	#wrapper #articles article {
 		width: 31.3%;
 		margin-right: 2%;
@@ -649,8 +1308,8 @@ input[type=text].field:focus {
 /* Mobile Version */
 @media (min-width: 720px) and (max-width: 1279px) {
 	#wrapper #articles article {
-		width: 80%;
-		margin-right: 10%;
+		width: 46%;
+		margin-right: 4%;
 		float: right;
 		min-height: 200px;
 		margin-bottom: 60px;
@@ -662,15 +1321,11 @@ input[type=text].field:focus {
 		line-height: 25px;
 	}
 
-	.content2 {
-		min-height: 250%;
-	}
-
 	#wrapper #articles article img {
 		width: 100%;
 		border-radius: 5px 5px 0 0;
 		border-bottom: 1px solid white;
-		height: 350px;
+		height: 250px;
 	}
 
 	#wrapper #articles article h2 {
@@ -758,4 +1413,82 @@ input[type=text].field:focus {
 	-moz-transition: all 0.5s ease; 
 	-o-transition: all 0.5s ease; 
 	transition: all 0.5s ease; 
+}
+
+/* Antiviruses */
+
+.content2 div {
+	padding: 0 3% 0 3%;
+	background-color: #fafafa;
+	margin-bottom: 35px;
+	box-sizing: border-box;
+	max-height: 600px;
+}
+
+.content2 img {
+	width: 100%;
+}
+
+.content2 div h2 {
+	text-align: center;
+}
+
+.content2 div ul>li {
+	font-size: 14px;
+}
+
+.body_anti {
+	margin: 0px;
+	padding: 0px;
+	background-color: silver;
+	height: 100%;
+	width: 100%;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+#version {
+	font-size: 15px;
+	text-align: center;
+	color: darkred;
+}
+
+.content2 div #btn{
+	background-color: lime;
+	border: 0;
+	width: 50%;
+	margin-right: 25%;
+	float: right;
+	min-height: 50px;
+	text-align: center;
+	padding-top: 4%;
+	color: white;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.content2 div #btn2{
+	background-color: lime;
+	border: 0;
+	width: 50%;
+	margin-right: 25%;
+	float: right;
+	padding-top: 2%;
+	min-height: 50px;
+	text-align: center;
+	color: white;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.content2 div #btn:hover{
+	background-color: darkgreen;
+}
+
+.content2 div #btn2:hover{
+	background-color: darkgreen;
 }
