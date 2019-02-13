@@ -236,6 +236,10 @@ input[type=text].field:focus {
 		margin-bottom: 35px;
 	}
 
+	.antivirus_content {
+		padding: 0;
+	}
+
 	.content2 div #btn{
 		background-color: green;
 		border: 0;
@@ -246,7 +250,6 @@ input[type=text].field:focus {
 		text-align: center;
 		color: white;
 		padding-top: 5%;
-		margin-top: 15px;
 		border-radius: 5px;
 	}
 
@@ -260,7 +263,6 @@ input[type=text].field:focus {
 		min-height: 50px;
 		text-align: center;
 		color: white;
-		margin-top: 15px;
 		border-radius: 5px;
 	}
 
@@ -449,14 +451,13 @@ input[type=text].field:focus {
 		color: red;
 	}
 
-	.content2 div #system {
-		margin-right: 10%;
-		float: right;
-		width: 80%;
-	}
-
 	.content2 div p {
 		font-size: 15px;
+	}
+
+	.content2 div #system {
+		width: 80%;
+		margin: 0 10% 0 10%;
 	}
 
 	.content2 div {
@@ -465,6 +466,13 @@ input[type=text].field:focus {
 		margin-bottom: 35px;
 		box-sizing: border-box;
 		max-height: 600px;
+	}
+
+	.content2 div .antivirus_content {
+		padding: 0;
+		margin: 0;
+		min-height: 450px;
+		max-height: 450px;
 	}
 }
 
@@ -481,9 +489,16 @@ input[type=text].field:focus {
 		margin-bottom: 35px;
 	}
 
+	.content2 div .antivirus_content {
+		padding: 0;
+		margin: 0;
+		min-height: 425px;
+		max-height: 425px;
+	}
+
 	.content2 {
-		margin-left: 12%;
-		margin-right: 12%;
+		margin-left: 8%;
+		margin-right: 8%;
 		vertical-align: middle;
 		min-height: 100%;
 		flex: 1 0 auto;
@@ -729,6 +744,13 @@ input[type=text].field:focus {
 		margin-bottom: 35px;
 	}
 
+	.content2 div .antivirus_content {
+		padding: 0;
+		margin: 0;
+		min-height: 425px;
+		max-height: 425px;
+	}
+
 	.content2 div #btn{
 		background-color: green;
 		border: 0;
@@ -758,8 +780,8 @@ input[type=text].field:focus {
 	}
 
 	.content2 {
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-left: 8%;
+		margin-right: 8%;
 		vertical-align: middle;
 		min-height: 100%;
 		flex: 1 0 auto;
@@ -981,6 +1003,13 @@ input[type=text].field:focus {
 		font-size: 1.5em;
 		line-height: 10px;
 		margin-bottom: 35px;
+	}
+
+	.content2 div .antivirus_content {
+		padding: 0;
+		margin: 0;
+		min-height: 425px;
+		max-height: 425px;
 	}
 
 	.content2 {
@@ -1238,6 +1267,13 @@ input[type=text].field:focus {
 		margin-bottom: 35px;
 	}
 
+	.content2 div .antivirus_content {
+		padding: 0;
+		margin: 0;
+		min-height: 500px;
+		max-height: 500px;
+	}
+
 	.content2 {
 		margin-left: 5%;
 		margin-right: 5%;
@@ -1294,8 +1330,8 @@ input[type=text].field:focus {
 		border-radius: 5px;
 		float: left;
 		font-size: 1.1em;
-		line-height: 20px;
-		min-height: 600px;
+		line-height: 25px;
+		min-height: 700px;
 	}
 
 	.antiviruses3 {
@@ -1304,8 +1340,8 @@ input[type=text].field:focus {
 		border-radius: 5px;
 		float: left;
 		font-size: 1.1em;
-		line-height: 20px;
-		min-height: 600px;
+		line-height: 25px;
+		min-height: 700px;
 	}
 
 	.antiviruses4 {
@@ -1314,8 +1350,8 @@ input[type=text].field:focus {
 		border-radius: 5px;
 		float: left;
 		font-size: 1.1em;
-		min-height: 600px;
-		line-height: 20px;
+		min-height: 700px;
+		line-height: 25px;
 	}
 
 	.antiviruses5 {
@@ -1323,9 +1359,9 @@ input[type=text].field:focus {
 		margin-right: 2%;
 		border-radius: 5px;
 		float: left;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	.antiviruses6 {
@@ -1333,9 +1369,9 @@ input[type=text].field:focus {
 		margin-right: 2%;
 		border-radius: 5px;
 		float: left;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	.antiviruses7 {
@@ -1343,9 +1379,9 @@ input[type=text].field:focus {
 		margin-right: 2%;
 		border-radius: 5px;
 		float: left;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	.antiviruses8 {
@@ -1353,9 +1389,9 @@ input[type=text].field:focus {
 		margin-right: 2%;
 		border-radius: 5px;
 		float: left;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	.antiviruses9 {
@@ -1363,9 +1399,9 @@ input[type=text].field:focus {
 		margin-right: 2%;
 		border-radius: 5px;
 		float: left;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	.antiviruses10 {
@@ -1373,9 +1409,9 @@ input[type=text].field:focus {
 		margin-right: 2%;
 		border-radius: 5px;
 		float: left;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	.antiviruses11 {
@@ -1383,9 +1419,9 @@ input[type=text].field:focus {
 		margin-right: 25%;
 		border-radius: 5px;
 		float: right;
-		min-height: 600px;
+		min-height: 700px;
 		font-size: 1.1em;
-		line-height: 20px;
+		line-height: 25px;
 	}
 
 	#wrapper #articles article {
