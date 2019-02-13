@@ -236,6 +236,34 @@ input[type=text].field:focus {
 		margin-bottom: 35px;
 	}
 
+	.content2 div #btn{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 5%;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div #btn2{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		padding-top: 2%;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
 	.content2 {
 		margin-left: 12%;
 		margin-right: 12%;
@@ -430,6 +458,14 @@ input[type=text].field:focus {
 	.content2 div p {
 		font-size: 15px;
 	}
+
+	.content2 div {
+		padding: 0 3% 0 3%;
+		background-color: #fafafa;
+		margin-bottom: 35px;
+		box-sizing: border-box;
+		max-height: 600px;
+	}
 }
 
 /* 1600x900 */
@@ -456,6 +492,34 @@ input[type=text].field:focus {
 
 	.content2 div p {
 		font-size: 15px;
+	}
+
+	.content2 div #btn{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 5%;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div #btn2{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		padding-top: 2%;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		margin-top: 15px;
+		border-radius: 5px;
 	}
 
 	.content2 div #system {
@@ -642,6 +706,14 @@ input[type=text].field:focus {
 	.contacts #red {
 		color: red;
 	}
+
+	.content2 div {
+		padding: 0 3% 0 3%;
+		background-color: #fafafa;
+		margin-bottom: 35px;
+		box-sizing: border-box;
+		max-height: 600px;
+	}
 }
 
 /* 1440x900 */
@@ -655,6 +727,34 @@ input[type=text].field:focus {
 		font-size: 1.5em;
 		line-height: 10px;
 		margin-bottom: 35px;
+	}
+
+	.content2 div #btn{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 5%;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div #btn2{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		padding-top: 2%;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		margin-top: 15px;
+		border-radius: 5px;
 	}
 
 	.content2 {
@@ -861,6 +961,13 @@ input[type=text].field:focus {
 		vertical-align: middle;
 		min-height: 100%;
 	}
+	.content2 div {
+		padding: 0 3% 0 3%;
+		background-color: #fafafa;
+		margin-bottom: 35px;
+		box-sizing: border-box;
+		max-height: 600px;
+	}
 }
 
 /* 1366x768 */
@@ -886,6 +993,34 @@ input[type=text].field:focus {
 
 	.content2 div p {
 		font-size: 15px;
+	}
+
+	.content2 div #btn{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 5%;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div #btn2{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		padding-top: 2%;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		margin-top: 15px;
+		border-radius: 5px;
 	}
 
 	.content2 div #system {
@@ -1080,6 +1215,14 @@ input[type=text].field:focus {
 		vertical-align: middle;
 		min-height: 100%;
 	}
+
+	.content2 div {
+		padding: 0 3% 0 3%;
+		background-color: #fafafa;
+		margin-bottom: 35px;
+		box-sizing: border-box;
+		max-height: 600px;
+	}
 }
 
 /* 1280x960 (1280x1024) */
@@ -1111,6 +1254,34 @@ input[type=text].field:focus {
 		margin-right: 5%;
 		float: right;
 		width: 90%;
+	}
+
+	.content2 div #btn{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 5%;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div #btn2{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		padding-top: 2%;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		margin-top: 15px;
+		border-radius: 5px;
 	}
 
 	.antiviruses h3 {
@@ -1303,10 +1474,186 @@ input[type=text].field:focus {
 		vertical-align: middle;
 		min-height: 100%;
 	}
+
+	.content2 div {
+		padding: 0 3% 0 3%;
+		background-color: #fafafa;
+		margin-bottom: 35px;
+		box-sizing: border-box;
+		max-height: 600px;
+	}
 }
 
 /* Mobile Version */
 @media (min-width: 720px) and (max-width: 1279px) {
+	.antiviruses {
+		width: 80%;
+		margin-right: 10%;
+		border-radius: 5px;
+		float: right;
+		height: auto;
+		font-size: 1.5em;
+		line-height: 10px;
+		margin-bottom: 35px;
+	}
+
+	.content2 div {
+		padding: 0 3% 0 3%;
+		background-color: #fafafa;
+		margin-bottom: 35px;
+		box-sizing: border-box;
+	}
+
+	.content2 {
+		margin-left: 5%;
+		margin-right: 5%;
+		vertical-align: middle;
+		min-height: 100%;
+		flex: 1 0 auto;
+	}
+
+	.content2 div #btn{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		padding-top: 2%;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div #btn2{
+		background-color: green;
+		border: 0;
+		width: 50%;
+		margin-right: 25%;
+		float: right;
+		padding-top: 2%;
+		min-height: 50px;
+		text-align: center;
+		color: white;
+		margin-top: 15px;
+		border-radius: 5px;
+	}
+
+	.content2 div p {
+		font-size: 14px;
+	}
+
+	.content2 div #system {
+		margin-right: 5%;
+		float: right;
+		width: 90%;
+	}
+
+	.antiviruses h3 {
+		text-align: center;
+	}
+
+	.antiviruses2 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: right;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses3 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		line-height: 20px;
+		min-height: 600px;
+	}
+
+	.antiviruses4 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		font-size: 1.1em;
+		min-height: 600px;
+		line-height: 20px;
+	}
+
+	.antiviruses5 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses6 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses7 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses8 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses9 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses10 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: left;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
+	.antiviruses11 {
+		width: 98%;
+		margin-right: 1%;
+		border-radius: 5px;
+		float: right;
+		min-height: 600px;
+		font-size: 1.1em;
+		line-height: 20px;
+	}
+
 	#wrapper #articles article {
 		width: 46%;
 		margin-right: 4%;
@@ -1417,14 +1764,6 @@ input[type=text].field:focus {
 
 /* Antiviruses */
 
-.content2 div {
-	padding: 0 3% 0 3%;
-	background-color: #fafafa;
-	margin-bottom: 35px;
-	box-sizing: border-box;
-	max-height: 600px;
-}
-
 .content2 img {
 	width: 100%;
 }
@@ -1455,34 +1794,6 @@ input[type=text].field:focus {
 	font-size: 15px;
 	text-align: center;
 	color: darkred;
-}
-
-.content2 div #btn{
-	background-color: green;
-	border: 0;
-	width: 50%;
-	margin-right: 25%;
-	float: right;
-	min-height: 50px;
-	text-align: center;
-	padding-top: 4%;
-	color: white;
-	margin-top: 15px;
-	border-radius: 5px;
-}
-
-.content2 div #btn2{
-	background-color: green;
-	border: 0;
-	width: 50%;
-	margin-right: 25%;
-	float: right;
-	padding-top: 2%;
-	min-height: 50px;
-	text-align: center;
-	color: white;
-	margin-top: 15px;
-	border-radius: 5px;
 }
 
 .content2 div #btn:hover{
