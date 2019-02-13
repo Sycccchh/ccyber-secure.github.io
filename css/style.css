@@ -1458,7 +1458,7 @@ input[type=text].field:focus {
 }
 
 .content2 div #btn{
-	background-color: lime;
+	background-color: green;
 	border: 0;
 	width: 50%;
 	margin-right: 25%;
@@ -1472,7 +1472,7 @@ input[type=text].field:focus {
 }
 
 .content2 div #btn2{
-	background-color: lime;
+	background-color: green;
 	border: 0;
 	width: 50%;
 	margin-right: 25%;
